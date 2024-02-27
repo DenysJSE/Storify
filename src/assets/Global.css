@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter Semi Bold", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a7a7a7;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #797979;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #5c5c5c;
+}
+
+/* Color variables */
+:root {
+  /* Global Colors */
+  --app-text-color: #FFFFFF;
+  --app-background-color: #161617;
+  --navbar-menu-active-item-background-color: #FFFFFF;
+  --navbar-menu-active-item-text-color: #000000;
+
+  /* Story Info Page Colors */
+  --story-info-page-text-color: #FFFFFF;
+  --story-info-page-edit-button-background-color: #FFFFFF;
+  --story-info-page-edit-button-text-color: #000000;
+  --story-info-page-delete-button-background-color: #E44E58;
+  --story-info-page-delete-button-text-color: #FFFFFF;
+
+  /* My Stories Page Colors */
+  --my-stories-page-text-color: #FFFFFF;
+  --my-stories-page-sorting-filter-active-text-color: #67D6F9;
+  --my-stories-page-story-card-background-color: #333333;
+  --my-stories-page-story-card-shadow-color: #000000;
+  --my-stories-page-details-button-background-color: #FFFFFF;
+  --my-stories-page-details-text-color: #000000;
+
+  /* My Liked Stories Page Colors */
+  --my-liked-stories-page-text-color: #FFFFFF;
+  --my-liked-stories-page-story-card-cover-color: #000000;
+  --my-liked-stories-page-story-card-background-color: #333333;
+  --my-liked-stories-page-story-card-shadow-color: #000000;
+  --my-liked-stories-page-details-button-background-color: #FFFFFF;
+  --my-liked-stories-page-details-text-color: #000000;
+
+  /* Add New Story Page Colors */
+  --add-new-story-page-text-color: #FFFFFF;
+  --add-new-story-page-input-background-color: #161617;
+  --add-new-story-page-input-placeholder-color: #C6C6C6;
+  --add-new-story-page-input-border-color: #333333;
+  --add-new-story-page-image-placeholder-background-color: #161617;
+  --add-new-story-page-image-placeholder-border-color: #333333;
+  --add-new-story-page-create-button-background-color: #FFFFFF;
+  --add-new-story-page-create-button-text-color: #000000;
+
+  /* Auth Page Colors */
+  --auth-page-text-color: #FFFFFF;
+  --auth-page-form-background-color: #333333;
+  --auth-page-input-background-color: #333333;
+  --auth-page-input-border-color: #FFFFFF;
+  --auth-page-form-hr-line-color: #FFFFFF;
+  --auth-page-input-placeholder-color: #C6C6C6;
+  --auth-page-sign-in-button-background-color: #FFFFFF;
+  --auth-page-sign-in-button-text-color: #000000;
+  --auth-page-sign-up-reccomendation-background-color: #FFFFFF;
+  --auth-page-sign-up-reccomendation-text-color: #000000;
+  --auth-page-sign-up-reccomendation-button-background-color: #000000;
+  --auth-page-sign-up-reccomendation-button-text-color: #FFFFFF;
+  --auth-page-sign-in-reccomendation-background-color: #FFFFFF;
+  --auth-page-sign-in-reccomendation-text-color: #000000;
+  --auth-page-sign-in-reccomendation-button-background-color: #000000;
+  --auth-page-sign-in-reccomendation-button-text-color: #FFFFFF;
+
+  /* User Info / Edit User Info Page */
+  --user-info-page-text-color: #FFFFFF;
+  --user-info-page-input-background-color: #161617;
+  --user-info-page-input-placeholder-color: #C6C6C6;
+  --user-info-page-input-border-color: #333333;
+  --user-info-page-create-button-background-color: #FFFFFF;
+  --user-info-page-create-button-text-color: #000000;
+}

@@ -1,8 +1,9 @@
+import 'assets/Global.css'
 
 function App() {
   return (
     <>
-      <h1>Hello from Storify</h1>
+      <h1>Hello from STORIFY</h1>
     </>
   )
 }
