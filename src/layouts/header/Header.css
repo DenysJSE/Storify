@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 100px;
+}
+
+.header-navbar {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.header-navbar-items {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-navbar-item-background {
+  padding: 5px 15px;
+}
+
+.header-navbar-item-background:hover {
+  color: var(--navbar-menu-item-hover);
+}
+
+.header-navbar-item-background.active {
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: var(--navbar-menu-active-item-background-color);
+  color: var(--navbar-menu-active-item-text-color);
+}
+
+.header-navbar-item {
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header-navbar-user-icon-img {
+  width: 40px;
+  border-radius: 50%;
+}

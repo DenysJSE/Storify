@@ -36,8 +36,11 @@ html {
   /* Global Colors */
   --app-text-color: #FFFFFF;
   --app-background-color: #161617;
+
+  /* Header */
   --navbar-menu-active-item-background-color: #FFFFFF;
   --navbar-menu-active-item-text-color: #000000;
+  --navbar-menu-item-hover: #67D6F9;
 
   /* Story Info Page Colors */
   --story-info-page-text-color: #FFFFFF;
@@ -97,4 +100,20 @@ html {
   --user-info-page-input-border-color: #333333;
   --user-info-page-create-button-background-color: #FFFFFF;
   --user-info-page-create-button-text-color: #000000;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  color: var(--app-text-color);
+  background-color: var(--app-background-color);
+}
+
+.app-content {
+  padding: 24px 150px;
+}
+
+.link {
+  color: var(--app-text-color);
+  text-decoration: none;
 }
