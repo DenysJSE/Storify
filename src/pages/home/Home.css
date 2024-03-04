@@ -1,0 +1,44 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.home-page-user-info {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.home-page-user-info-details {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.home-page-user-info-details-icon-img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.home-page-user-info-details-user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.home-page-user-info-details-user-details-age {
+  font-size: 18px;
+}
+
+.home-page-user-info-details-user-details-stories-amount {
+  font-size: 22px;
+}
+
+.home-page-user-info-description {
+  width: 700px;
+  font-size: 18px;
+  line-height: 1.5;
+}
