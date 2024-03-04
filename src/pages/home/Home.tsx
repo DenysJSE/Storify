@@ -23,6 +23,7 @@ function Home() {
       </div>
       <div className='home-page-user-stories-section'>
         <h1>Here should be a graphic with stories but I don't know how to do this yet</h1>
+        <p>test</p>
       </div>
     </div>
   );
