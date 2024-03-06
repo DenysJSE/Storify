@@ -5,6 +5,7 @@ import Home from "./pages/home/Home.tsx";
 import MyStories from "./pages/my-stories/MyStories.tsx";
 import LikedStories from "./pages/liked-stories/LikedStories.tsx";
 import AddNewStory from "./pages/add-new-story/AddNewStory.tsx";
+import StoryInfo from "./pages/story-info/StoryInfo.tsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <div className='app-content'>
           <Routes>
             <Route path={'/home'} element={<Home />} />
+            <Route path={'/story-info'} element={<StoryInfo />} />
             <Route path={'/my-stories'} element={<MyStories />} />
             <Route path={'/liked-stories'} element={<LikedStories />} />
             <Route path={'/add-new-story'} element={<AddNewStory />} />

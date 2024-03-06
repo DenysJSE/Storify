@@ -1,0 +1,92 @@
+.story-info-page {
+  display: flex;
+  gap: 30px;
+}
+
+.story-info-page-images-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.story-info-page-images-section-additional-image {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.story-info-page-images-section-main-image-img {
+  height: 450px;
+  width: 450px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.story-info-page-images-section-additional-image-img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.story-info-page-likes {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.story-info-page-likes-img {
+  width: 24px;
+  cursor: pointer;
+}
+
+.story-info-page-likes-amount {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: default;
+}
+
+.story-info-page-buttons {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.story-info-page-button {
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.story-info-page-button-img {
+  width: 24px;
+}
+
+.story-info-page-button.edit {
+  background-color: var(--story-info-page-edit-button-background-color);
+  color: var(--story-info-page-edit-button-text-color);
+}
+
+.story-info-page-button.edit:hover {
+  background-color: var(--story-info-page-edit-button-active-background-color);
+}
+
+.story-info-page-button.delete {
+  background-color: var(--story-info-page-delete-button-background-color);
+  color: var(--story-info-page-delete-button-text-color);
+}
+
+.story-info-page-button.delete:hover {
+  background-color: var(--story-info-page-delete-button-active-background-color);
+}

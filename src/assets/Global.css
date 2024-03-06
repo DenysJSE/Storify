@@ -45,8 +45,10 @@ html {
   /* Story Info Page Colors */
   --story-info-page-text-color: #FFFFFF;
   --story-info-page-edit-button-background-color: #FFFFFF;
+  --story-info-page-edit-button-active-background-color: #cccccc;
   --story-info-page-edit-button-text-color: #000000;
   --story-info-page-delete-button-background-color: #E44E58;
+  --story-info-page-delete-button-active-background-color: #ee8287;
   --story-info-page-delete-button-text-color: #FFFFFF;
 
   /* My Stories Page Colors */
