@@ -1,6 +1,8 @@
-.story-info-page {
+.story-info-page-story-wrapper {
   display: flex;
-  gap: 30px;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 72px;
 }
 
 .story-info-page-images-section {
@@ -17,8 +19,8 @@
 }
 
 .story-info-page-images-section-main-image-img {
-  height: 450px;
-  width: 450px;
+  height: 550px;
+  width: 550px;
   object-fit: cover;
   border-radius: 30px;
 }
@@ -28,6 +30,49 @@
   width: 70px;
   object-fit: cover;
   border-radius: 15px;
+}
+
+.story-info-page-story-content-user-details {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  position: relative;
+}
+
+.story-info-page-story-content-user-icon {
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.story-info-page-story-content-user-name {
+  font-size: 18px;
+}
+
+.story-info-page-story-content-story-title {
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.story-info-page-description {
+  margin-top: 12px;
+  font-size: 20px;
+  max-width: 800px;
+  max-height: 550px;
+  overflow: auto;
+  padding: 24px 16px;
+}
+
+.story-info-page-description::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.story-info-page-description::-webkit-scrollbar {
+  width: 4px;
 }
 
 .story-info-page-likes {
@@ -50,10 +95,11 @@
 }
 
 .story-info-page-buttons {
-  margin-top: 24px;
+  position: absolute;
+  bottom: 72px;
+  transform: translate(-50%, 0);
+  left: 50%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 24px;
 }
 
